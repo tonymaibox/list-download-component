@@ -1,0 +1,78 @@
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+td {
+  border-bottom: 1px solid lightgray;
+}
+
+.checkboxSpacing {
+  width: 20px;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.listHeader {
+  height: 48px;
+}
+
+.listItem {
+  height: 32px;
+}
+
+.listItemCell {
+  text-align: left;
+}
+
+.availableStatus {
+  display: flex;
+  align-items: center;
+}
+
+.availableStatusIndicatorWrapper {
+  width: 24px;
+}
+
+.availableStatusIndicator {
+  width: 16px;
+  height: 16px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  border: 1px solid lightgray;
+  margin-right: 8px;
+}
+
+.listItemSelected {
+  background-color: darkgray;
+}
+
+.listItemAvailable:hover {
+  background-color: lightgray;
+}
+
+.listActions {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+
+.selectAllWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.selectAllCheckbox {
+  width: 30px;
+  text-align: left;
+}
